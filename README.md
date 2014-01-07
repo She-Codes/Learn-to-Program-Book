@@ -1,0 +1,1 @@
+These are the Chapters 1 - 10 exercises for the Learn to Program Book.
