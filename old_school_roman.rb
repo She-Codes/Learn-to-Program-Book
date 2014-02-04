@@ -1,3 +1,5 @@
+puts 'Please enter a number'
+number = gets.chomp
 def old_roman_numeral num 
 	roman = ''
 
@@ -11,4 +13,4 @@ def old_roman_numeral num
 	roman
 end
 
-puts(old_roman_numeral 2766)
+puts(old_roman_numeral number.to_i)

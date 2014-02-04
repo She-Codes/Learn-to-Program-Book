@@ -1,3 +1,6 @@
+puts 'Please enter a number'
+number = gets.chomp
+
 def old_roman_numeral num 
 	roman = ''
 	m_counter = (num          / 1000) #find out how many 1000's there are
@@ -43,5 +46,5 @@ def old_roman_numeral num
 	roman
 end
 
-puts(old_roman_numeral 499)
+puts(old_roman_numeral number.to_i)
 
